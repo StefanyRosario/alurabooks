@@ -1,0 +1,24 @@
+ hr {
+     margin: 0;
+ }
+
+ .rodape {
+     background-color: var(--branco);
+     padding-right: 1em;
+ }
+
+ .lista-rodape {
+     display: none;
+ }
+
+ @media screen and (min-width:1024x) {
+     .rodape {
+         display: flex;
+         justify-content: space-around;
+     }
+
+     .lista-rodape__item {
+         display: flex;
+         align-items: center;
+     }
+ }

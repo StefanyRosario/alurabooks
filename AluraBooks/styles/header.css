@@ -57,23 +57,35 @@
 .container__botao{
     display: none;
 }
+@media screen(min-width: 1728px){
 
-@media screen and (min-width :1024px){
-   .container__titulo,
-   .container__titulo--negrito{
-    font-family: var(--fonte-secundaria);
-    font-size: 30px;
-   }
+    .container__link{
+        display:flex;
+    }
+       align-items::center;
+        text-decorantion:none;
+        color:var
+    }
+
+    .cabecalho{
+        padding: auto;
+    }
+.opcoes{
+    margin-rithg: auto;
 }
-   
-
-.container__titulo{
-    font-weight: 400;
-    display: none;
+.container__{
+    display: block;
+}
+@media screen( min-width:1728px) {
+  .banner__pesquisa{
+    width:35%;
+  }  
 }
 
-.container__titulo--negrito{
-    font-weight: 700;
+.banner__pesquisa: :placeholder{
+    background-positivo:12em;
 }
 
-    
+.banner{
+    padding: 6em 0;
+}
